@@ -1,1 +1,1 @@
-# Fast-Spring-Study
+# fast-spring-study
