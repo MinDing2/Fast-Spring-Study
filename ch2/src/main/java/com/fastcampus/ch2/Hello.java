@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 // 1. 원격 호출가능한 프로그램으로 등록 
 @Controller
 public class Hello {
+	
 	int iv = 10; //	인스턴스 변수
 	static int cv = 20; // static(클래스) 변수 
 	
@@ -19,7 +20,7 @@ public class Hello {
 	
 	public static void main2() {// static메서드 - cv만 사용가능 
 		System.out.println(cv); // OK 
-//		System.out.println(iv); // 에러 	
-	}
+		//System.out.println(iv); // 에러 	
+	}	
 	
 }
